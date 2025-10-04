@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="tailwindcss-colors.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!-- start: Navbar -->
+    <nav class="navbar" data-navbar>
+      <div class="container">
+        <div class="navbar-wrapper">
+          <a href="#" class="navbar-logo">MOON</a>
+          <div class="navbar-right">
+            <a href="#" class="btn btn-primary" id="contact-me">Contact Me</a>
+            <button
+              type="button"
+              class="btn btn-outline-primary btn-icon"
+              data-navbar-toggle
+            >
+              <i class="ri-menu-line"></i>
+            </button>
+          </div>
+        </div>
+        <div class="navbar-menu-wrapper">
+          <ul class="navbar-menu">
+            <li class="navbar-menu-item active">
+              <a href="#" class="navbar-menu-item-link">HOME</a>
+            </li>
+            <li class="navbar-menu-item">
+              <a href="#" class="navbar-menu-item-link">ABOUT ME</a>
+            </li>
+            <li class="navbar-menu-item">
+              <a href="#" class="navbar-menu-item-link">SKILLS</a>
+            </li>
+            <li class="navbar-menu-item">
+              <a href="#" class="navbar-menu-item-link">PROJECTS</a>
+            </li>
+            <li class="navbar-menu-item">
+              <a href="#" class="navbar-menu-item-link">CONTACT</a>
+            </li>
+          </ul>
+          <button type="button" class="navbar-menu-close" data-navbar-dismiss>
+            <i class="ri-close-large-line"></i>
+          </button>
+        </div>
+        <div class="navbar-menu-overlay"></div>
+      </div>
+    </nav>
+    <!-- end: Navbar -->
+
+    <!-- start: Hero -->
+    <header class="hero-section">
+      <div class="container">
+        <div class="hero-wrapper">
+          <div class="hero-left">
+            <div class="hero-left-wrapper">
+              <h2 class="hero-subtitle">Помогаем в бизнесе</h2>
+              <h1 class="hero-title">Мы<br />оловвчсмнавси</h1>
+              <p class="hero-description">
+                Мы занимаемся внедрений иноваций в ваш бизнес
+              </p>
+              <div class="hero-action">
+                <a href="#" class="btn btn-primary btn-lg">
+                  <span>Lets Talk</span>
+                  <i class="ri-arrow-right-up-line"></i>
+                </a>
+                <a href="#" class="btn btn-outline-primary btn-lg">
+                  <i class="ri-play-large-fill"></i>
+                  <span>Introduction</span>
+                </a>
+              </div>
+              <div class="hero-social">
+                <p class="hero-social-title">Мои соц.сети</p>
+                <div class="hero-social-wrapper">
+                  <a
+                    href="https://t.me/Recreate_IT"
+                    class="btn btn-primary btn-icon btn-sm hero-social-item"
+                    \
+                    target="_blank"
+                  >
+                    <i class="ri-telegram-line"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/g_oryaschev/"
+                    class="btn btn-primary btn-icon btn-sm hero-social-item"
+                    \
+                    target="_blank"
+                  >
+                    <i class="ri-instagram-fill"></i>
+                  </a>
+                  <a
+                    href="https://www.youtube.com/@Recreate_IT-b"
+                    class="btn btn-primary btn-icon btn-sm hero-social-item"
+                    \
+                    target="_blank"
+                  >
+                    <i class="ri-youtube-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-right">
+            <img src="images/hero.jpg" alt="Image" class="hero-image" />
+            <span class="hero-image-bg red"></span>
+            <span class="hero-image-bg teal"></span>
+            <span class="hero-image-bg orange"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end: Hero -->
+
+    <!-- start: Partner -->
+    <section class="partner-section">
+      <div class="container">
+        <div class="partner-box">
+          <h2 class="section-title partner-title">
+            Большое спасибо в помощи с разработкой моего проекта
+          </h2>
+          <div class="partner-image">
+            <img src="images/stripe.png" alt="" class="partner-image-item" />
+            <img src="images/meta.png" alt="" class="partner-image-item" />
+            <img src="images/netflix.png" alt="" class="partner-image-item" />
+            <img src="images/spotify.png" alt="" class="partner-image-item" />
+            <img src="images/amazon.png" alt="" class="partner-image-item" />
+            <img src="images/fedex.png" alt="" class="partner-image-item" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end: Partner -->
+
+    <!-- start: About Me -->
+    <section class="about-section">
+      <div class="container">
+        <div class="about-wrapper">
+          <div class="about-left">
+            <h2 class="section-title about-title">
+              Этот проект создан для людей, которые хотят попробовать себя в
+              сфере Frontend разработки
+            </h2>
+            <a href="#" class="btn btn-primary btn-lg">
+              <span>Связаться со мной</span>
+              <i class="ri-arrow-right-up-line"></i>
+            </a>
+          </div>
+          <div class="about-right">
+            <p class="about-subtitle">
+              В ходе данного курса изучим с вами языки программирования HTML,
+              CSS, и JavaScript.
+            </p>
+            <p class="about-description">
+              Для кого данный курс ? Данный курс создан для людей, которые
+              только начинают вливаться в сферу IT. На данном курсе вы найдете
+              теоретические уроки, домашния задания и куча идей для проектов.
+              Если вы будете усердно изучать данный курс, то по завершению
+              данного курса Вы свободно сможете создавать свои маленькие проекты
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end: About Me -->
+
+    <!-- start: Skills -->
+    <section class="skill-section">
+      <div class="container">
+        <h2 class="section-title skill-title">Что будет на курсе ?</h2>
+        <p class="skill-description">
+          В данный курс будут входить не только языки программирования, но и
+          следующие уроки <i class="ri-arrow-down-line"></i>
+        </p>
+        <div class="skill-wrapper">
+          <div class="skill-item">
+            <div class="skill-item-icon">
+              <i class="ri-html5-line"></i>
+            </div>
+            <p class="skill-item-title">HTML</p>
+            <p class="skill-item-dscription">
+              HTML - это базовый язык для создания веб-страниц, который
+              структурирует контент.
+            </p>
+            <button>
+              <a href="course/html/html.html">Перейти на курс</a>
+            </button>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item-icon">
+              <i class="ri-css3-line"></i>
+            </div>
+            <p class="skill-item-title">CSS</p>
+            <p class="skill-item-dscription">
+              CSS - язык стилей, который используется для описания внешнего вида
+              документа
+            </p>
+            <button><a href="#">Перейти на курс</a></button>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item-icon">
+              <i class="ri-javascript-line"></i>
+            </div>
+            <p class="skill-item-title">JavaScript</p>
+            <p class="skill-item-dscription">
+              JavaScript - это мультипарадигменный язык программирования,
+              который используется для создания интерактивных веб-сайтов и
+              веб-приложений
+            </p>
+            <button><a href="#">Перейти на курс</a></button>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item-icon">
+              <i class="ri-edit-line"></i>
+            </div>
+            <p class="skill-item-title">Чистота в коде</p>
+            <p class="skill-item-dscription">
+              Немного затронем правила написания чистого кода
+            </p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item-icon">
+              <img src="images/Figma.png" alt="" />
+            </div>
+            <p class="skill-item-title">Figma проекты</p>
+            <p class="skill-item-dscription">
+              По окончанию курса мы сверстаем 10-15 макетов Figma разных
+              сложностей
+            </p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item-icon">
+              <i class="ri-user-smile-line"></i>
+            </div>
+            <p class="skill-item-title">UX Design</p>
+            <p class="skill-item-dscription">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              mauris enim, eleifend in auctor at, sollicitudin in mauris.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end: Skills -->
+
+    <!-- start: History -->
+    <section class="history-section">
+      <div class="container">
+        <div class="history-wrapper">
+          <div class="history-item">
+            <p class="history-item-title">15</p>
+            <p class="history-item-text">Довольных клиентов</p>
+          </div>
+          <div class="history-item">
+            <p class="history-item-title">48+</p>
+            <p class="history-item-text">Часов работы над проектом</p>
+          </div>
+          <div class="history-item">
+            <p class="history-item-title">5+</p>
+            <p class="history-item-text">Завершенных проектов</p>
+          </div>
+          <div class="history-item">
+            <p class="history-item-title">3</p>
+            <p class="history-item-text">Года опыта</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end: History -->
+
+    <!-- start: Projects -->
+    <section class="project-section">
+      <div class="container">
+        <div class="project-wrapper">
+          <div class="project-left">
+            <h2 class="section-title project-title">
+              Мое оборудование на протяжении всех проектов
+            </h2>
+            <p class="project-description">
+              У каждого оно индивидуально, на наших проектах совсем не важно,
+              какое у вас оборудование
+            </p>
+            <img src="images/project.jpg" alt="Image" class="project-image" />
+          </div>
+          <div class="project-right">
+            <div class="project-image-wrapper">
+              <img
+                src="images/project2.jpg"
+                alt="Image"
+                class="project-image-item"
+              />
+              <img
+                src="images/project.jpg"
+                alt="Image"
+                class="project-image-item"
+              />
+              <img
+                src="images/project.jpg"
+                alt="Image"
+                class="project-image-item project-image-item-full"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end: Projects -->
+
+    <!-- start: Contact -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-box">
+          <h2 class="section-title contact-title">
+            Есть идеи по улчшению сайта?
+          </h2>
+          <a href="#" class="btn btn-white btn-lg">
+            <span>Связаться со мной</span>
+            <i class="ri-arrow-right-up-line"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end: Contact -->
+
+    <!-- start: Footer -->
+    <footer class="footer-section">
+      <div class="container">
+        <p class="footer-text">Recreate - project 2026 - 2030 years</p>
+      </div>
+    </footer>
+    <!-- end: Footer -->
+
+    <script src="JavaScript/script.js"></script>
+    <script src="JavaScript/animation.js"></script>
+  </body>
+</html>

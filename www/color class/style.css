@@ -1,0 +1,15 @@
+.Html {
+  color: var(--orange-500);
+}
+
+.Css {
+  color: var(--blue-700);
+}
+
+.JavaScript {
+  color: var(--yellow-400);
+}
+
+.React {
+  color: var(--sky-500);
+}
